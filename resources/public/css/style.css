@@ -1,0 +1,30 @@
+/* some style */
+
+input[type="button" i] {
+  width: 46px;
+  border-color: black;
+  border-width: 1px;
+  height: 46px;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 1px 1px 1px;
+}
+
+input[class="clicked no-mine"] {
+	background-color: green;
+}
+
+input[class="clicked 1-mine"] {
+	background-color: yellow;
+}
+
+input[class="clicked 2-mine"] {
+	background-color: orange;
+}
+
+input[class="clicked 3-mine"] {
+	background-color: red;
+}
